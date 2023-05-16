@@ -5,7 +5,7 @@ import "../Styles/Menu.css"
  function Menu(){
     return(
         <div>
-            <p>SHOP</p>
+            <p>Menu</p>
         </div>
     );
 }
