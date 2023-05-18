@@ -51,4 +51,21 @@
     }
   }
 
+  @media screen and (max-width: 550px) {
+    .hero-content-text{
+        font-size: 15px;
+        width: 200px;
+        margin-left: 0;
+    }
+
+    .hero-content-text p{
+        font-size: 14px;
+    }
+
+    .hero-content-text h2 {
+        font-size: 18px;
+    }
+
+  }
+
 /*responzivita do 550px*/
