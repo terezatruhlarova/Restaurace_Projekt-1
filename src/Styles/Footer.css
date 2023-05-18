@@ -30,5 +30,31 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 954px) {
+    .footer-content{
+        margin-top: 1em;
+        font-size: 14px;
+        text-align: center;
+    }
+  }
 
-/* Responzivita je do 954 pixelů */
+  @media screen and (max-width: 640px) {
+    .footer-social-img{
+        margin: 0;
+        display: flex;
+    }
+
+    .footer-social{
+        width: 100px;
+        padding: auto;
+    }
+
+    
+
+    .footer-img{
+        margin-top: 2em;
+        width: 230px;
+        height: 100px;
+    }
+
+  }
