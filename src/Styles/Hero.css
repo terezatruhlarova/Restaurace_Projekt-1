@@ -1,9 +1,27 @@
-.hero-content {
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+.hero-content-page {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     height: 500px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Img/hero_pizza.jpg");
+}
+.hero-content{
+    font-family: 'Mate SC', serif;
+    font-size: 40px;
+    margin: auto;
+    color: white;
+}
+.hero-btn-order{
+    height: 40px;
+    width: 95px;
+    margin-right: 30px;
+}
+.hero-btn-phone{
+    height: 40px;
+    width: 140px;
+    margin-right: 30px;
+    margin-left: 330px;
 }
 

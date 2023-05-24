@@ -6,13 +6,7 @@ import Hero from "./Hero";
     return(
       <div>
         <Hero/>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-        
+        <h5></h5>    
       </div>
     )
 }
