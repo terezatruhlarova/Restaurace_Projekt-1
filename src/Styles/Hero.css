@@ -1,71 +1,9 @@
-.hero-content{
-    background-color: aqua;
-    width: 100%;
-    height: 220px;
+.hero-content {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Img/hero_pizza.jpg");
 }
 
-.hero-content-text{
-    float: left;
-    width: 350px;
-    height: 180px;
-    margin-top: 2em;
-    margin-left: 2em;
-    padding: 1em;
-}
-
-.hero-content-img {
-    float: right;
-    margin-right: 2em;
-    margin-top: 1em;
-    -webkit-animation: scale-up-ver-top 4s linear infinite alternate both;
-    animation: scale-up-ver-top 4s linear infinite alternate both;
-}
-
-
-@-webkit-keyframes scale-up-ver-top {
-    0% {
-      -webkit-transform: scaleY(0.4);
-              transform: scaleY(0.4);
-      -webkit-transform-origin: 100% 0%;
-              transform-origin: 100% 0%;
-    }
-    100% {
-      -webkit-transform: scaleY(1);
-              transform: scaleY(1);
-      -webkit-transform-origin: 100% 0%;
-              transform-origin: 100% 0%;
-    }
-  }
-  @keyframes scale-up-ver-top {
-    0% {
-      -webkit-transform: scaleY(0.4);
-              transform: scaleY(0.4);
-      -webkit-transform-origin: 100% 0%;
-              transform-origin: 100% 0%;
-    }
-    100% {
-      -webkit-transform: scaleY(1);
-              transform: scaleY(1);
-      -webkit-transform-origin: 100% 0%;
-              transform-origin: 100% 0%;
-    }
-  }
-
-  @media screen and (max-width: 550px) {
-    .hero-content-text{
-        font-size: 15px;
-        width: 200px;
-        margin-left: 0;
-    }
-
-    .hero-content-text p{
-        font-size: 14px;
-    }
-
-    .hero-content-text h2 {
-        font-size: 18px;
-    }
-
-  }
-
-/*responzivita do 550px*/
