@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');.tempalate-page {
+    display: flex;
+    justify-content: center;
+    font-family: 'Mate SC', serif;
+    
+}
+
+.tempalate-content {
+    width: 85%;
+    height: 200px;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.template-tittle{
+    width: 500px;
+    height: 55px;
+    font-size: 40px;
+    padding: 5px;
+}
+
+.template-ing {
+    width: 600px;
+    height: 40px;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.template-price {
+    width: 360px;
+    height: 60px;
+    font-size: 28px;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+.template-sale{
+    display: flex;
+}

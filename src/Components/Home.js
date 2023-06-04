@@ -15,6 +15,7 @@ import Map from "./Map";
         <li>Rozvoz do okolních vesnic je zdarma, ostatní 8 Kč/km</li> 
         <li>Letní zahrádka s grilem, ohništěm a hracími prvky pro děti</li> 
         <li>Možnost parkování</li>
+        <li><a href="tel: 123456789"> Pro objednání zavolejte na tel. číslo: +420 123 456 789</a></li>
       </div>
       <div className="home-map">
         <Map/>
