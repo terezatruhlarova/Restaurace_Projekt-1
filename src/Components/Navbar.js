@@ -1,5 +1,5 @@
 import React from "react";
-import {FaBars, FaTimes, FaShoppingCart} from "react-icons/fa"
+import {FaBars, FaTimes} from "react-icons/fa"
 import { useRef } from "react";
 import "../Styles/Navbar.css";
 
