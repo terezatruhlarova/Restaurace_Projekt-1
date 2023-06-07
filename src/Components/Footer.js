@@ -10,7 +10,6 @@ function Footer() {
           <p>Majitel: Truhlářová Tereza</p>
           <p>Kuchař: Bárta Adam</p>
           <p>Rozvoz: Hovorka Ondřej</p>
-          <p>E-mail: papa-joy@gmail.com</p>
           <p>Kontakt: +420 123 456 789</p>
         </div>
         <div className="footer-social">

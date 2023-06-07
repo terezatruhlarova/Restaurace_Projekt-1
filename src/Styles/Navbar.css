@@ -51,7 +51,17 @@ header .nav-btn {
         font-size: 20px;
     }
 }
-
+@media only screen and (max-width: 828px){
+    nav a{
+        font-size: 12px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .nav-btn{
+        size: 8px;
+    }
+}
 
 @media only screen and (max-width: 1024px){
     header .nav-btn{
