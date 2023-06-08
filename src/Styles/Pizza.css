@@ -39,3 +39,21 @@
 .template-sale{
     display: flex;
 }
+
+
+@media only screen and (max-width: 640px){
+    .tempalate-content{
+        height: 350px;
+
+    }
+
+    .template-tittle{
+        width: 250px;
+    }
+    
+    .template-ing {
+        width: 400px;
+        height: 100px;
+        margin-top: 60px;
+    }
+}
